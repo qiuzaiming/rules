@@ -51,6 +51,13 @@
 				"zh": "百度"
 			},
 			"path": "baidu/searchbox/downloads/"
+		},
+		{
+			"name": "Camera",
+			"locales": {
+				"zh": "相机"
+			},
+			"path": "DCIM/Camera/"
 		}
 	]
 }

@@ -1,19 +1,55 @@
 {
-	"posts": [
+	"version": 1,
+	"apps": [
 		{
-			"id": 1,
-			"title": "Post 1"
+			"name": "ScreenShot",
+			"locales": {
+				"zh": "截屏"
+			},
+			"path": "Pictures/Screenshots/"
 		},
 		{
-			"id": 2,
-			"title": "Post 2"
+			"name": "ScreenRecord",
+			"locales": {
+				"zh": "录屏"
+			},
+			"path": "Movies/",
+			"namingPattern": "screen-.*\\.mp4"
 		},
 		{
-			"id": 3,
-			"title": "Post 3"
+			"name": "Download",
+			"locales": {
+				"zh": "下载"
+			},
+			"path": "Download/"
+		},
+		{
+			"name": "Bluetooth",
+			"locales": {
+				"zh": "蓝牙"
+			},
+			"path": "bluetooth/"
+		},
+		{
+			"name": "Wechat",
+			"locales": {
+				"zh": "微信相册"
+			},
+			"path": "Pictures/WeiXin/"
+		},
+		{
+			"name": "QQ",
+			"locales": {
+				"zh": "QQ 相册"
+			},
+			"path": "Tencent/QQ_Images/"
+		},
+		{
+			"name": "Baidu",
+			"locales": {
+				"zh": "百度"
+			},
+			"path": "baidu/searchbox/downloads/"
 		}
-	],
-	"profile": {
-		"name": "typeName"
-	}
+	]
 }

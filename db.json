@@ -13,8 +13,7 @@
 			"locales": {
 				"zh": "录屏"
 			},
-			"path": "Movies/",
-			"namingPattern": "screen-.*\\.mp4"
+			"path": "Movies/"
 		},
 		{
 			"name": "Download",

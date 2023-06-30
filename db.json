@@ -1,63 +1,64 @@
 {
-	"version": {
-		"name": 1
+	"result": {
+		"apps": [{
+				"name": "ScreenShot",
+				"locales": {
+					"zh": "截屏"
+				},
+				"path": "Pictures/Screenshots/"
+			},
+			{
+				"name": "ScreenRecord",
+				"locales": {
+					"zh": "录屏"
+				},
+				"path": "Movies/"
+			},
+			{
+				"name": "Download",
+				"locales": {
+					"zh": "下载"
+				},
+				"path": "Download/"
+			},
+			{
+				"name": "Bluetooth",
+				"locales": {
+					"zh": "蓝牙"
+				},
+				"path": "bluetooth/"
+			},
+			{
+				"name": "Wechat",
+				"locales": {
+					"zh": "微信相册"
+				},
+				"path": "Pictures/WeiXin/"
+			},
+			{
+				"name": "QQ",
+				"locales": {
+					"zh": "QQ 相册"
+				},
+				"path": "Tencent/QQ_Images/"
+			},
+			{
+				"name": "Baidu",
+				"locales": {
+					"zh": "百度"
+				},
+				"path": "baidu/searchbox/downloads/"
+			},
+			{
+				"name": "Camera",
+				"locales": {
+					"zh": "相机"
+				},
+				"path": "DCIM/Camera/"
+			}
+		],
+		"version": "2.0"
 	},
-	"apps": [
-		{
-			"name": "ScreenShot",
-			"locales": {
-				"zh": "截屏"
-			},
-			"path": "Pictures/Screenshots/"
-		},
-		{
-			"name": "ScreenRecord",
-			"locales": {
-				"zh": "录屏"
-			},
-			"path": "Movies/"
-		},
-		{
-			"name": "Download",
-			"locales": {
-				"zh": "下载"
-			},
-			"path": "Download/"
-		},
-		{
-			"name": "Bluetooth",
-			"locales": {
-				"zh": "蓝牙"
-			},
-			"path": "bluetooth/"
-		},
-		{
-			"name": "Wechat",
-			"locales": {
-				"zh": "微信相册"
-			},
-			"path": "Pictures/WeiXin/"
-		},
-		{
-			"name": "QQ",
-			"locales": {
-				"zh": "QQ 相册"
-			},
-			"path": "Tencent/QQ_Images/"
-		},
-		{
-			"name": "Baidu",
-			"locales": {
-				"zh": "百度"
-			},
-			"path": "baidu/searchbox/downloads/"
-		},
-		{
-			"name": "Camera",
-			"locales": {
-				"zh": "相机"
-			},
-			"path": "DCIM/Camera/"
-		}
-	]
+	"message": "ok",
+	"code": 0
 }
